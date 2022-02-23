@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pedro/canlib/drivers/can_socket_driver/can_driver.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+stddef.h
+-
+errno.h
+-
+rtdm/rtcan.h
+/home/pedro/canlib/drivers/can_socket_driver/rtdm/rtcan.h
+unistd.h
+-
+sys/socket.h
+-
+sys/ioctl.h
+-
+linux/can.h
+/home/pedro/canlib/drivers/can_socket_driver/linux/can.h
+linux/can/raw.h
+/home/pedro/canlib/drivers/can_socket_driver/linux/can/raw.h
+net/if.h
+/home/pedro/canlib/drivers/can_socket_driver/net/if.h
+can_driver.h
+/home/pedro/canlib/drivers/can_socket_driver/can_driver.h
+
+/home/pedro/canlib/drivers/can_socket_driver/can_driver.h
+

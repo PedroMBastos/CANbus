@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/CANExercise.dir/exercise.c.o  -o ../../../output/bin/CANExercise  -Wl,-rpath,/home/pedro/canlib/output/lib ../../../output/lib/libcan_driver.so 

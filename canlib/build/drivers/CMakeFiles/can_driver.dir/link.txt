@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,libcan_driver.so -o ../../output/lib/libcan_driver.so CMakeFiles/can_driver.dir/can_socket_driver/can_driver.c.o 

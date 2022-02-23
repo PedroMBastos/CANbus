@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../drivers/can_socket_driver/can_driver.h
+
+/home/pedro/canlib/examples/CAN_Receiver/receiver.c
+signal.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+time.h
+-
+can_driver.h
+/home/pedro/canlib/examples/CAN_Receiver/can_driver.h
+

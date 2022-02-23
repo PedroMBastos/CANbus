@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/CANReceiver.dir/receiver.c.o  -o ../../../output/bin/CANReceiver  -Wl,-rpath,/home/pedro/canlib/output/lib ../../../output/lib/libcan_driver.so 

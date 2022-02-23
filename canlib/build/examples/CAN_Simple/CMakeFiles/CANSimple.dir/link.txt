@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/CANSimple.dir/simple.c.o  -o ../../../output/bin/CANSimple  -Wl,-rpath,/home/pedro/canlib/output/lib ../../../output/lib/libcan_driver.so 
